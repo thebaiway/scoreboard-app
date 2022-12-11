@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoreboard</title>
+    <link href="/favicon.ico" type="image/x-icon" rel="icon" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+                
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h3>HOME</h3>
+            <p id="score-el-home">0</p>
+            <div class="increment-div">
+                <span onclick="addOneHome()">+1</span>
+                <span onclick="addTwoHome()">+2</span>
+                <span onclick="addThreeHome()">+3</span>
+            </div>
+        </div>
+        <div>
+            <h3>GUEST</h3>
+            <p id="score-el-guest">0</p>
+            <div class="increment-div">
+                <span onclick="addOneGuest()">+1</span>
+                <span onclick="addTwoGuest()">+2</span>
+                <span onclick="addThreeGuest()">+3</span>
+            </div>
+        </div>
+    </div>
+    <div id="new-game-div">
+        <h1 onclick="gameReset()">New Game?</h1>
+    </div>
+<script src="./js/app.js"></script>
+</body>
+</html>
