@@ -15,7 +15,7 @@ function addOneHome () {
     if (homeScore > guestScore) {
         scoreElHome.style.backgroundColor = 'white'
         scoreElGuest.style.backgroundColor = 'black';
-        } else {
+        } else if (homeScore === guestScore) {
             scoreElHome.style.backgroundColor = 'black'
             scoreElGuest.style.backgroundColor = 'black';
         }   
@@ -27,10 +27,10 @@ function addTwoHome() {
     if (homeScore > guestScore) {
         scoreElHome.style.backgroundColor = 'white'
         scoreElGuest.style.backgroundColor = 'black';
-        }  else {
+        }  else if (homeScore === guestScore) {
             scoreElHome.style.backgroundColor = 'black'
             scoreElGuest.style.backgroundColor = 'black';
-        }  
+        } 
 }
 
 function addThreeHome () {
@@ -39,7 +39,7 @@ function addThreeHome () {
     if (homeScore > guestScore) {
         scoreElHome.style.backgroundColor = 'white'
         scoreElGuest.style.backgroundColor = 'black';
-        }   else {
+        }    else if (homeScore === guestScore) {
             scoreElHome.style.backgroundColor = 'black'
             scoreElGuest.style.backgroundColor = 'black';
         }  
@@ -51,10 +51,10 @@ function addOneGuest () {
     if (guestScore > homeScore) {
         scoreElHome.style.backgroundColor = 'black'
         scoreElGuest.style.backgroundColor = 'white';
-        }   else {
+        }    else if (homeScore === guestScore) {
             scoreElHome.style.backgroundColor = 'black'
             scoreElGuest.style.backgroundColor = 'black';
-        }  
+        }   
     
 }
 
@@ -64,10 +64,10 @@ function addTwoGuest() {
     if (guestScore > homeScore) {
         scoreElHome.style.backgroundColor = 'black'
         scoreElGuest.style.backgroundColor = 'white';
-        }  else {
+        }   else if (homeScore === guestScore) {
             scoreElHome.style.backgroundColor = 'black'
             scoreElGuest.style.backgroundColor = 'black';
-        }  
+        }   
 }
 
 function addThreeGuest () {
@@ -76,7 +76,7 @@ function addThreeGuest () {
     if (guestScore > homeScore) {
         scoreElHome.style.backgroundColor = 'black'
         scoreElGuest.style.backgroundColor = 'white';
-        }   else {
+        }    else if (homeScore === guestScore) {
             scoreElHome.style.backgroundColor = 'black'
             scoreElGuest.style.backgroundColor = 'black';
         }  
