@@ -15,7 +15,10 @@ function addOneHome () {
     if (homeScore > guestScore) {
         scoreElHome.style.backgroundColor = 'white'
         scoreElGuest.style.backgroundColor = 'black';
-        }    
+        } else {
+            scoreElHome.style.backgroundColor = 'black'
+            scoreElGuest.style.backgroundColor = 'black';
+        }   
 }
 
 function addTwoHome() {
@@ -24,6 +27,9 @@ function addTwoHome() {
     if (homeScore > guestScore) {
         scoreElHome.style.backgroundColor = 'white'
         scoreElGuest.style.backgroundColor = 'black';
+        }  else {
+            scoreElHome.style.backgroundColor = 'black'
+            scoreElGuest.style.backgroundColor = 'black';
         }  
 }
 
@@ -33,7 +39,10 @@ function addThreeHome () {
     if (homeScore > guestScore) {
         scoreElHome.style.backgroundColor = 'white'
         scoreElGuest.style.backgroundColor = 'black';
-        }   
+        }   else {
+            scoreElHome.style.backgroundColor = 'black'
+            scoreElGuest.style.backgroundColor = 'black';
+        }  
 }
 
 function addOneGuest () {
@@ -42,7 +51,10 @@ function addOneGuest () {
     if (guestScore > homeScore) {
         scoreElHome.style.backgroundColor = 'black'
         scoreElGuest.style.backgroundColor = 'white';
-        }   
+        }   else {
+            scoreElHome.style.backgroundColor = 'black'
+            scoreElGuest.style.backgroundColor = 'black';
+        }  
     
 }
 
@@ -52,6 +64,9 @@ function addTwoGuest() {
     if (guestScore > homeScore) {
         scoreElHome.style.backgroundColor = 'black'
         scoreElGuest.style.backgroundColor = 'white';
+        }  else {
+            scoreElHome.style.backgroundColor = 'black'
+            scoreElGuest.style.backgroundColor = 'black';
         }  
 }
 
@@ -61,7 +76,10 @@ function addThreeGuest () {
     if (guestScore > homeScore) {
         scoreElHome.style.backgroundColor = 'black'
         scoreElGuest.style.backgroundColor = 'white';
-        }   
+        }   else {
+            scoreElHome.style.backgroundColor = 'black'
+            scoreElGuest.style.backgroundColor = 'black';
+        }  
 }
 
 function gameReset () {
