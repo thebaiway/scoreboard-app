@@ -1,18 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scoreboard</title>
-    <link href="/favicon.ico" type="image/x-icon" rel="icon" />
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/styles.css">
-    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
-                
-</head>
-<body>
-    <div class="container">
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+       <div class="container">
         <div>
             <h3>HOME</h3>
             <p id="score-el-home">0</p>
@@ -34,7 +25,9 @@
     </div>
     <div id="new-game-div">
         <h1 onclick="gameReset()">New Game?</h1>
+    </div> 
     </div>
-<script src="./js/app.js"></script>
-</body>
-</html>
+  );
+}
+
+export default App;
